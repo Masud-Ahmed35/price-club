@@ -14,7 +14,7 @@ const NavBar = () => {
     ];
 
     return (
-        <nav className='bg-purple-200'>
+        <nav className='bg-purple-200 md:py-3'>
             <div onClick={() => setOpen(!open)} className="h-9 w-9 md:hidden">
                 {
                     open ? <XMarkIcon /> : <Bars3Icon />

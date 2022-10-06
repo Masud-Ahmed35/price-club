@@ -15,7 +15,7 @@ const AssignmentMarks = () => {
     ]
 
     return (
-        <div>
+        <div className='my-11'>
             <LineChart height={400} width={1500} data={data}>
                 <Line type="monotone" dataKey="assignmentMarks" stroke="#8884d8"></Line>
                 <CartesianGrid stroke="#ccc" />
